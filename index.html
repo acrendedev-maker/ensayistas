@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ensayistas | Música Nacional Argentina</title>
+<meta name="description" content="Ensayistas - Cantantes argentinos y música nacional. Escuchá nuestra música, mirá nuestras fotos y enterate de nuestros próximos shows.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#inicio" class="logo">Ensayistas</a>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#musica">Música</a>
+      <a href="#shows">Shows</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section id="inicio" class="hero">
+    <img src="assets/images/hero.jpg" alt="Ensayistas" class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="sr-only">Ensayistas</h1>
+      <p class="tagline">Cantantes argentinos · Música nacional</p>
+      <div class="hero-buttons">
+        <a href="https://open.spotify.com/artist/21oD8ZanIyW6tqtnUTnufl" target="_blank" rel="noopener" class="btn btn-primary">Escuchar en Spotify</a>
+        <a href="https://youtube.com/@ensayistas.musica" target="_blank" rel="noopener" class="btn btn-outline">Ver en YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section reveal">
+    <div class="container about-grid">
+      <img src="assets/images/about.jpg" alt="Patio de Ensayistas" class="about-img">
+      <div class="about-text">
+        <h2>Sobre nosotros</h2>
+        <p>
+          Ensayistas es un grupo de cantantes argentinos dedicado a la música nacional.
+          Llevamos nuestras raíces a cada escenario, compartiendo con el público canciones
+          que forman parte de nuestra identidad. Cada show es, para nosotros, un ensayo
+          compartido: una experiencia genuina, cercana y hecha con el corazón.
+        </p>
+        <p class="edit-note">✏️ Este es un texto de ejemplo — reemplazalo por la biografía real del grupo cuando quieras.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="musica" class="section reveal alt-bg">
+    <div class="container">
+      <h2>Nuestra música</h2>
+      <div class="music-grid">
+        <div class="music-card">
+          <iframe
+            title="Ensayistas en Spotify"
+            src="https://open.spotify.com/embed/artist/21oD8ZanIyW6tqtnUTnufl?utm_source=generator&theme=0"
+            width="100%" height="352" style="border-radius:16px" frameborder="0"
+            allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+          </iframe>
+        </div>
+        <div class="music-card youtube-card">
+          <div class="youtube-icon">▶</div>
+          <h3>Mirá nuestros videos</h3>
+          <p>Suscribite a nuestro canal de YouTube para ver videos, covers y contenido exclusivo.</p>
+          <a href="https://youtube.com/@ensayistas.musica" target="_blank" rel="noopener" class="btn btn-primary">Ir al canal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shows" class="section reveal">
+    <div class="container">
+      <h2>Próximo show</h2>
+      <div class="show-card">
+        <div class="show-date">
+          <span class="show-day">08</span>
+          <span class="show-month">AGO</span>
+          <span class="show-year">2026</span>
+        </div>
+        <div class="show-info">
+          <h3>Cultura Oqlta</h3>
+          <p>Tucumán, Argentina</p>
+          <p class="show-time">12:30 pm</p>
+          <!-- Cuando tengas el link de entradas, reemplazá el <span> de abajo por:
+               <a href="TU_LINK_DE_ENTRADAS" target="_blank" rel="noopener" class="btn btn-primary">Comprar entradas</a> -->
+          <span class="btn btn-disabled">Entradas próximamente</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="section reveal alt-bg">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="gallery-marquee">
+        <div class="gallery-track">
+          <button class="gallery-item" data-full="assets/images/gallery-1.jpg">
+            <img src="assets/images/gallery-1.jpg" alt="Público de Ensayistas bailando" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-2.jpg">
+            <img src="assets/images/gallery-2.jpg" alt="Ensayistas en el jardín" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-3.jpg">
+            <img src="assets/images/gallery-3.jpg" alt="Flyer Ensayistas en vivo en Cumpitas" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-4.jpg">
+            <img src="assets/images/gallery-4.jpg" alt="Flyer Juntada Latiente - Noche de bandas" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-5.jpg">
+            <img src="assets/images/gallery-5.jpg" alt="Flyer Ensayistas en vivo en El Bajón" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-6.jpg">
+            <img src="assets/images/gallery-6.jpg" alt="Patio donde ensaya la banda" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-1.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-1.jpg" alt="" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-2.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-2.jpg" alt="" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-3.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-3.jpg" alt="" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-4.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-4.jpg" alt="" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-5.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-5.jpg" alt="" loading="lazy">
+          </button>
+          <button class="gallery-item" data-full="assets/images/gallery-6.jpg" aria-hidden="true" tabindex="-1">
+            <img src="assets/images/gallery-6.jpg" alt="" loading="lazy">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section reveal contact-section">
+    <div class="container">
+      <h2>Seguinos</h2>
+      <p>Enterate de nuestras novedades, shows y música nueva en Instagram.</p>
+      <a href="https://www.instagram.com/ensayistas.musica/" target="_blank" rel="noopener" class="btn btn-instagram">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
+          <path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 2.2.27 2.9.55.8.3 1.3.7 1.9 1.3.6.6 1 1.1 1.3 1.9.28.7.5 1.7.55 2.9.06 1.3.07 1.7.07 4.9s-.01 3.6-.07 4.9c-.06 1.2-.27 2.2-.55 2.9-.3.8-.7 1.3-1.3 1.9-.6.6-1.1 1-1.9 1.3-.7.28-1.7.5-2.9.55-1.3.06-1.7.07-4.9.07s-3.6-.01-4.9-.07c-1.2-.06-2.2-.27-2.9-.55-.8-.3-1.3-.7-1.9-1.3-.6-.6-1-1.1-1.3-1.9-.28-.7-.5-1.7-.55-2.9C2.21 15.6 2.2 15.2 2.2 12s.01-3.6.07-4.9c.06-1.2.27-2.2.55-2.9.3-.8.7-1.3 1.3-1.9.6-.6 1.1-1 1.9-1.3.7-.28 1.7-.5 2.9-.55C8.4 2.21 8.8 2.2 12 2.2zm0 1.8c-3.14 0-3.5.01-4.74.07-1.03.05-1.6.22-1.97.37-.5.19-.85.42-1.22.79-.37.37-.6.72-.79 1.22-.15.37-.32.94-.37 1.97C2.85 8.5 2.84 8.86 2.84 12s.01 3.5.07 4.74c.05 1.03.22 1.6.37 1.97.19.5.42.85.79 1.22.37.37.72.6 1.22.79.37.15.94.32 1.97.37 1.24.06 1.6.07 4.74.07s3.5-.01 4.74-.07c1.03-.05 1.6-.22 1.97-.37.5-.19.85-.42 1.22-.79.37-.37.6-.72.79-1.22.15-.37.32-.94.37-1.97.06-1.24.07-1.6.07-4.74s-.01-3.5-.07-4.74c-.05-1.03-.22-1.6-.37-1.97-.19-.5-.42-.85-.79-1.22a3.28 3.28 0 0 0-1.22-.79c-.37-.15-.94-.32-1.97-.37C15.5 4.01 15.14 4 12 4zm0 3.05A4.95 4.95 0 1 1 7.05 12 4.95 4.95 0 0 1 12 7.05zm0 1.8A3.15 3.15 0 1 0 15.15 12 3.15 3.15 0 0 0 12 8.85zm5.15-2.02a1.16 1.16 0 1 1-1.16-1.16 1.16 1.16 0 0 1 1.16 1.16z"/>
+        </svg>
+        @ensayistas.musica
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Ensayistas. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
