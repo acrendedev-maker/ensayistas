@@ -493,8 +493,8 @@ img { max-width: 100%; display: block; }
   .gallery-item { flex-basis: calc((100cqw - var(--gap)) / 2); }
   .section { padding: 4rem 0; }
 
-  .hero { height: 100svh; }
-  .hero-content { padding-bottom: 3rem; }
+  .hero { height: 70vh; min-height: 460px; max-height: 560px; }
+  .hero-content { padding-bottom: 2.5rem; }
   .tagline {
     font-size: 1.05rem;
     margin: 1.75rem 0 1.5rem;
